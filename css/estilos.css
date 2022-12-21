@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap'); 
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Changa One', cursive;
+    font-size: medium;
+
+}
+
+header{
+    height: 70vh;
+}
+
+.portada{
+    width: 100%;
+    height: 100%;
+    
+}
+nav{
+    background: white;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #e0ff2d;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.caracteristicas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+    
+    
+}
+
+.principales{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    border: 0.1em solid rgb(175, 175, 175);
+    border-radius: 10px;
+    box-shadow: 5px 30px 20px -30px  ;
+}
+
+.titulo-1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.al-lado{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.sera{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 10vh;
+}
+
+
+.contenedor-1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 0;
+
+}
+
+.iphone{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5vh;
+    width: 35%;
+}
+
+.clave{
+    width: 100%;
+}
+
+.conteiner-3{
+background-color: rgb(37, 106, 255);
+padding: 5%;
+text-align: center;
+color: white;
+}
+
+h1{
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+
+.mediano{
+    font-size: 1.2em;
+    margin-bottom: 0.7em;
+}
+
+.final{
+    background-color: rgb(35, 36, 39);
+    padding: 5%;
+}
+
+.titulo-footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    color: white;
+    
+
+}
+
+.conteiner-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.columnas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 15%;
+    color: white;
+}
+
+/*¿quienes somos?*/
+
+.header-2{
+    background-color: rgb(37, 106, 255);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+}
+.grande{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    
+}
+.statu-quo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    
+}
+
+.figure_empresa{
+    width: 50vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.img{
+    width: 100%;
+}
+
+.equipo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+}
+
+/*Precios*/
+
+.header-3{
+    background-color: rgb(37, 106, 255);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+
+}
+
+.tabla{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.precios{
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.titulo-tabla{
+    font-size: medium;
+}
+
+th,td{
+    border: 0.1em solid rgb(196, 196, 196);
+    padding: 0.5em;
+    
+}
+
+
+.header-4{
+    background-color: rgb(37, 106, 255);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+
+}
+
+.seguridad{
+    margin: 10vh 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40%;
+}
+.texto_int{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+.titulo_tips{
+    margin-left: 10vw;
+}
+.tips{
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    margin-right: 10vw;
+}
+
+.img_centrada{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .caracteristicas{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .principales{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1%;
+        border: 0.1em solid rgb(175, 175, 175);
+        border-radius: 10px;
+        box-shadow: 5px 30px 20px -30px  ;
+    }
+    
+    .principales{
+        margin-top: 3vh;
+    }
+    .conteiner-4{
+        display: flex;
+        margin-top: 5vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        color: white;
+    }
+
+    .columnas{
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 767px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    .sera{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .caracteristicas{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+    }
+    
+    .principales{
+        margin-top: 3vh;
+    }
+    .al-lado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .iphone{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vh;
+        width: 90%;
+    }
+    .contenedor-1{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 0;
+    
+    }
+
+    
+    .conteiner-4{
+        display: flex;
+        margin-top: 5vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        color: white;
+    }
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
